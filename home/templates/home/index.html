@@ -10,18 +10,16 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
+    <div class="hero-section container h-100">
         <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    The new collections are here
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
-                </div>
-            </div>
+          <div class="col-md-12 mb-4 white-text text-center">
+              <!-- Landing Page and call to action -->
+            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5"><strong>Shop Lokali?</strong></h1>
+            <hr class="hr-light my-4">
+            <a class="btn btn-outline-white" href="{% url 'bikes' %}">Search Local</a>
+            <a class="btn btn-outline-white" href="{% url 'blog_list' %}">Buy Local</a>
+            <a class="btn btn-outline-white" href="{% url 'review_list' %}">EV Delivered Local</a>
+          </div>
         </div>
-    </div>
-{% endblock %}
+</div>
+{% endblock %} 
