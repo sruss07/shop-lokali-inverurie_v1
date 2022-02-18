@@ -3,48 +3,48 @@
         "model": "bikes.brand",
         "pk": 1,
         "fields": {
-            "name": "bianchi",
-            "frontend_name": "Bianchi"
+            "name": "clothing",
+            "frontend_name": "Clothing"
         }
     },
     {
         "model": "bikes.brand",
         "pk": 2,
         "fields": {
-            "name": "cinelli",
-            "frontend_name": "Cinelli"
+            "name": "footwear",
+            "frontend_name": "Footwear"
         }
     },
     {
         "model": "bikes.brand",
         "pk": 3,
         "fields": {
-            "name": "colnago",
-            "frontend_name": "Colnago"
+            "name": "outdoor_sports",
+            "frontend_name": "Outdoor & Sports"
         }
     },
     {
         "model": "bikes.brand",
         "pk": 4,
         "fields": {
-            "name": "de_rosa",
-            "frontend_name": "De Rosa"
+            "name": "electronics",
+            "frontend_name": "Electronics"
         }
     },
     {
         "model": "bikes.brand",
         "pk": 5,
         "fields": {
-            "name": "pinarello",
-            "frontend_name": "Pinarello"
+            "name": "home_diy",
+            "frontend_name": "Home & DIY"
         }
     },
     {
         "model": "bikes.brand",
         "pk": 6,
         "fields": {
-            "name": "wilier",
-            "frontend_name": "Wilier"
+            "name": "food_Drink",
+            "frontend_name": "Food & Drink"
         }
     }
 ]
