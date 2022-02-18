@@ -1,13 +1,39 @@
 html {
     height: 100%;
+  }
+
+/* ------------------- Home */
+
+.hero-section {
+    margin-top: 12vh;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.logo-font {
+    color: #198754;
+    text-transform: uppercase;
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/hero-section-image.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
+}
+
+h1 {
+    letter-spacing: 8px;
+}
+
+h4 {
+    letter-spacing: 3px;
+}
+
+.hr-light {
+    border-top: 3px solid #198754;
+    width: 80px;
 }
 
 /* from Bulma */
@@ -19,98 +45,42 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
+.text-black {
+    color: black !important;
+}
+
+.text-green {
+    color: #198754 !important;
+}
+
+.text-red {
+    color: #DC3545 !important;
+}
+
+.border-green {
+    border: 1px solid #198754 !important;
+}
+
+.border-red {
+    border: 1px solid #DC3545 !important;
 }
 
 .main-logo-link {
     width: fit-content;
 }
 
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+.nav-item a:hover{
+    text-decoration: underline;
+    text-decoration-color: #DC3545;
+    text-decoration-thickness: 3px;
 }
 
-.btn-black {
-    background: black;
-    color: white;
-}
 
-.btn-outline-black {
-    background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
-}
-
-.btn-outline-black:hover,
-.btn-outline-black:active,
-.btn-outline-black:focus {
-    background: black;
-    color: white !important;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
-
-.text-black {
-    color: #000 !important;
-}
-
-.border-black {
-    border: 1px solid black !important;
-}
-
-.bg-black {
-    background: #000 !important;
-}
-
-.overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
-}
-
-a.category-badge > span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
-}
-
-.btt-button {
-    height: 42px;
-    width: 42px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
-.btt-link,
-.update-link,
-.remove-item {
-    cursor: pointer;
-}
-
-input[name='q']::placeholder {
-    color: #aab7c4;
-}
-
-/* ------------------------------- bootstrap toasts */
+/* ------------------- Toasts */
 
 .message-container {
     position: fixed;
-    top: 72px;
+    top: 70px;
     right: 15px;
     z-index: 99999999999;
 }
@@ -135,7 +105,7 @@ input[name='q']::placeholder {
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
+/* Convenience classes - colours from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
@@ -168,22 +138,105 @@ input[name='q']::placeholder {
     border-bottom-color: #343a40 !important;
 }
 
-.bag-notification-wrapper {
+.cart-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
-/* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
+/* ------------------- Bikes */
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: #F7FAFE;
+	z-index: -1;
 }
 
-/* Allauth form formatting */
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.btt-button {
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+} 
+
+.btn-outline-black {
+    background: #F9F8FA;
+    color: black !important; 
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: #F9F8FA !important;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
+/* Product Form */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    border-color: #dc3545;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0;
+}
+
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    border-color: #dc3545;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0;
+}
+
+
+/* -------------------------------- Blog and Reviews */
+
+.blog-list .review-list {
+    padding: 3%;
+}
+
+/* -------------------------------- Alluath form formatting */
+
+/* From boutique ado */
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
@@ -237,34 +290,42 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
-/* Product Form */
+/* Footer */
 
-.btn-file {
-    position: relative;
-    overflow: hidden;
+footer {
+    margin-top: 50px;
 }
 
-.btn-file input[type="file"] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0;
-    cursor: pointer;
+.footer-logo {
+    letter-spacing: 5.6px;
+    font-size: 28px;    
 }
 
-.custom-checkbox .custom-control-label::before {
-    border-radius: 0;
-    border-color: #dc3545;
+.footer-container {
+    background-color: #F7FAFE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #198754;
 }
 
-.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
-    border-color: #dc3545;
-    border-radius: 0;
+.social-links li i {
+    color: #DC3545;
+    padding: 10px;
+    font-size: 16px;
 }
 
+.footer-copyright p {
+    margin: 0;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -288,6 +349,7 @@ input[name='q']::placeholder {
     }
 
     body {
+        padding-top: 11vh;
         height: calc(100vh - 116px);
     }
 
@@ -306,10 +368,6 @@ input[name='q']::placeholder {
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
-    }
-
-    #delivery-banner h4 {
-        font-size: .9rem;
     }
 
     .btn.btn-outline-black.rounded-0,
