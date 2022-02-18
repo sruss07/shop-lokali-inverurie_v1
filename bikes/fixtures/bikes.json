@@ -8,7 +8,6 @@
           "name": "shoe01",
           "description": "Kids black shoe",
           "price": "22.99",
-          "size": "6",
           "image_url": null,
           "image": "beggs_kids01.jpeg"
         }
@@ -23,7 +22,6 @@
           "name": "shoe02",
           "description": "Kids black shoe",
           "price": "26.99",
-          "size": "6",
           "image_url": null,
           "image": "beggs_kids02.jpeg"
         }
@@ -38,7 +36,6 @@
           "name": "shoe03",
           "description": "Kids black shoe",
           "price": "30.99",
-          "size": "6",
           "image_url": null,
           "image": "beggs_kids03.jpeg"
         }
@@ -53,7 +50,6 @@
           "name": "shoe04",
           "description": "Kids black shoe",
           "price": "22.99",
-          "size": "6",
           "image_url": null,
           "image": "beggs_kids04.jpeg"
         }
@@ -68,7 +64,6 @@
           "name": "shoe05",
           "description": "Mens black shoe",
           "price": "45.99",
-          "size": "10",
           "image_url": null,
           "image": "beggs_mens01.jpeg"
         }
@@ -83,7 +78,6 @@
           "name": "shoe06",
           "description": "Mens black shoe",
           "price": "52.99",
-          "size": "10",
           "image_url": null,
           "image": "beggs_mens02.jpeg"
         }
@@ -98,7 +92,6 @@
           "name": "shoe07",
           "description": "Mens black shoe",
           "price": "120.99",
-          "size": "10",
           "image_url": null,
           "image": "beggs_mens03.jpeg"
         }
@@ -113,7 +106,6 @@
           "name": "shoe08",
           "description": "Womens black shoe",
           "price": "100.99",
-          "size": "7",
           "image_url": null,
           "image": "beggs_womens01.jpeg"
         }
@@ -128,7 +120,6 @@
           "name": "shoe09",
           "description": "Womens black shoe",
           "price": "80.99",
-          "size": "7",
           "image_url": null,
           "image": "beggs_womens02.jpeg"
         }
@@ -143,7 +134,6 @@
           "name": "shoe10",
           "description": "Womens black shoe",
           "price": "100.99",
-          "size": "7",
           "image_url": null,
           "image": "beggs_womens03.png"
         }
@@ -158,7 +148,6 @@
           "name": "shoe11",
           "description": "Mens black shoe",
           "price": "100.99",
-          "size": "9",
           "image_url": null,
           "image": "bruce_mens01.jpeg"
         }
@@ -173,7 +162,6 @@
           "name": "shoe12",
           "description": "Mens black shoe",
           "price": "130.99",
-          "size": "9",
           "image_url": null,
           "image": "bruce_mens02.jpeg"
         }
@@ -188,7 +176,6 @@
           "name": "shoe13",
           "description": "Womens black shoe",
           "price": "114.99",
-          "size": "6",
           "image_url": null,
           "image": "bruce_womens01.jpeg"
         }
@@ -203,7 +190,6 @@
           "name": "shoe14",
           "description": "Womens black shoe",
           "price": "74.99",
-          "size": "6",
           "image_url": null,
           "image": "bruce_womens02.jpeg"
         }
@@ -218,7 +204,6 @@
           "name": "shoe15",
           "description": "Womens black shoe",
           "price": "94.99",
-          "size": "6",
           "image_url": null,
           "image": "bruce_womens03.jpeg"
         }
@@ -233,7 +218,6 @@
           "name": "shoe16",
           "description": "Mens black shoe",
           "price": "94.99",
-          "size": "9",
           "image_url": null,
           "image": "gibbs_mens01.jpeg"
         }
@@ -248,7 +232,6 @@
           "name": "shoe17",
           "description": "Kids black shoe",
           "price": "34.99",
-          "size": "5",
           "image_url": null,
           "image": "tt_kids01.jpeg"
         }
@@ -263,7 +246,6 @@
           "name": "shoe18",
           "description": "Kids black shoe",
           "price": "44.99",
-          "size": "5",
           "image_url": null,
           "image": "tt_kids02.jpeg"
         }
