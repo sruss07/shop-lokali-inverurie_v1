@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="description" content="The Finest Italian Road Bikes" />
+        <meta name="description" content="Local shopping app for Inverurie" />
         <meta name="author" content="Sean Russell">
     {% endblock %}
 
@@ -37,7 +37,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     {% endblock %}
 
-    <title>Ciclo Italia {% block extra_title %}{% endblock %}</title>
+    <title>Shop Lokali Inverurie {% block extra_title %}{% endblock %}</title>
 </head>
 
 <body>
@@ -45,7 +45,7 @@
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-uppercase text-green my-0"><strong>Ciclo Italia</strong></h2>
+                    <h2 class="logo-font text-uppercase text-green my-0"><strong>Shop Lokali Inverurie</strong></h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -58,7 +58,7 @@
                 </form>
             </div>
             <!-- My Account -->
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <!--<div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
@@ -69,7 +69,7 @@
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                            <!-- Profile User Options -->
+                            Profile User Options
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
                             <a href="{% url 'add_bike' %}" class="dropdown-item">Product Management</a>
@@ -84,7 +84,7 @@
                             <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
-                    </li>
+                    </li> -->
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                             href="{% url 'view_cart' %}">
