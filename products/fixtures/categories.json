@@ -1,18 +1,50 @@
-
-[{"pk": 1, "model": "products.category", "fields": {"name": "activewear", "friendly_name": "Activewear"}}, 
-    
-{"pk": 2, "model": "products.category", "fields": {"name": "bed_bath", "friendly_name": "Bed & Bath"}}, 
-
-{"pk": 3, "model": "products.category", "fields": {"name": "clearance", "friendly_name": "Clearance"}}, 
-
-{"pk": 4, "model": "products.category", "fields": {"name": "deals", "friendly_name": "Deals"}}, 
-
-{"pk": 5, "model": "products.category", "fields": {"name": "essentials", "friendly_name": "Essentials"}}, 
-
-{"pk": 6, "model": "products.category", "fields": {"name": "jeans", "friendly_name": "Jeans"}}, 
-
-{"pk": 7, "model": "products.category", "fields": {"name": "kitchen_dining", "friendly_name": "Kitchen & Dining"}}, 
-
-{"pk": 8, "model": "products.category", "fields": {"name": "new_arrivals", "friendly_name": "New Arrivals"}}, 
-
-{"pk": 9, "model": "products.category", "fields": {"name": "shirts", "friendly_name": "Shirts"}}]
+[
+    {
+        "model": "bikes.brand",
+        "pk": 1,
+        "fields": {
+            "name": "bianchi",
+            "frontend_name": "Bianchi"
+        }
+    },
+    {
+        "model": "bikes.brand",
+        "pk": 2,
+        "fields": {
+            "name": "cinelli",
+            "frontend_name": "Cinelli"
+        }
+    },
+    {
+        "model": "bikes.brand",
+        "pk": 3,
+        "fields": {
+            "name": "colnago",
+            "frontend_name": "Colnago"
+        }
+    },
+    {
+        "model": "bikes.brand",
+        "pk": 4,
+        "fields": {
+            "name": "de_rosa",
+            "frontend_name": "De Rosa"
+        }
+    },
+    {
+        "model": "bikes.brand",
+        "pk": 5,
+        "fields": {
+            "name": "pinarello",
+            "frontend_name": "Pinarello"
+        }
+    },
+    {
+        "model": "bikes.brand",
+        "pk": 6,
+        "fields": {
+            "name": "wilier",
+            "frontend_name": "Wilier"
+        }
+    }
+]
