@@ -1,55 +1,117 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item d-block d-md-none">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+            <a class="logo-font nav-link mr-5" href="{% url 'home' %}" id="home-link">
                 Home
             </a>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
+            <a href="{% url 'bikes' %}" class="logo-font nav-link mr-5">All&nbsp;Bikes</a>
+        </li>
+        <li class="nav-item dropdown">
+            <!-- Bike Brands - Bianchi -->
+            <a class="logo-font nav-link mr-5" href="#" id="bianchi-link" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Bianchi
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+            <div class="dropdown-menu border-0" aria-labelledby="bianchi-link">
+                <a href="{% url 'bikes' %}?bike=Aria" class="dropdown-item">Aria</a>
+                <a href="{% url 'bikes' %}?bike=Oltre" class="dropdown-item">Oltre</a>
+                <a href="{% url 'bikes' %}?bike=Speciallisima" class="dropdown-item">Specialissima</a>
+                <a href="{% url 'bikes' %}?bike=Sprint" class="dropdown-item">Sprint</a>
+                <a href="{% url 'bikes' %}?brand=Bianchi" class="dropdown-item">All Bianchi</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Clothing
+            <!-- Bike Brands - Cinelli -->
+            <a class="logo-font nav-link mr-5" href="#" id="cinelli-link" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Cinelli
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Activewear &amp; Essentials</a>
-                <a href="{% url 'products' %}?category=jeans" class="dropdown-item">Jeans</a>
-                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Shirts</a>
-                <a href="{% url 'products' %}?category=activewear,essentials,jeans,shirts" class="dropdown-item">All Clothing</a>
+            <div class="dropdown-menu border-0" aria-labelledby="cinelli-link">
+                <a href="{% url 'bikes' %}?bike=Pressure" class="dropdown-item">Pressure</a>
+                <a href="{% url 'bikes' %}?bike=Superstar" class="dropdown-item">Superstar</a>
+                <a href="{% url 'bikes' %}?bike=Veltrix" class="dropdown-item">Veltrix</a>
+                <a href="{% url 'bikes' %}?bike=Vigorelli" class="dropdown-item">Vigorelli</a>
+                <a href="{% url 'bikes' %}?brand=Cinelli" class="dropdown-item">All Cinelli</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Homeware
+            <!-- Bike Brands - Colnago -->
+            <a class="logo-font nav-link mr-5" href="#" id="colnago-link" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Colnago
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Bed &amp; Bath</a>
-                <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Kitchen &amp; Dining</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">All Homeware</a>
+            <div class="dropdown-menu border-0" aria-labelledby="colnago-link">
+                <a href="{% url 'bikes' %}?bike=C64" class="dropdown-item">C64</a>
+                <a href="{% url 'bikes' %}?bike=CLX" class="dropdown-item">CLX</a>
+                <a href="{% url 'bikes' %}?bike=V3" class="dropdown-item">V3</a>
+                <a href="{% url 'bikes' %}?bike=V3RS" class="dropdown-item">V3RS</a>
+                <a href="{% url 'bikes' %}?brand=Colnago" class="dropdown-item">All Colnago</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
+            <!-- Bike Brands - De Rosa -->
+            <a class="logo-font nav-link mr-5" href="#" id="derosa-link" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                De&nbsp;Rosa
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
+            <div class="dropdown-menu border-0" aria-labelledby="derosa-link">
+                <a href="{% url 'bikes' %}?bike=Corum" class="dropdown-item">Corum</a>
+                <a href="{% url 'bikes' %}?bike=Idol" class="dropdown-item">Idol</a>
+                <a href="{% url 'bikes' %}?bike=Merak" class="dropdown-item">Merak</a>
+                <a href="{% url 'bikes' %}?bike=Pininfarina" class="dropdown-item">Pininfarina</a>
+                <a href="{% url 'bikes' %}?brand=De&nbsp;Rosa" class="dropdown-item">All De Rosa</a>
             </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <!-- Bike Brands - Pinarello -->
+            <a class="logo-font nav-link mr-5" href="#" id="pinarello-link" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Pinarello
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="pinarello-link">
+                <a href="{% url 'bikes' %}?bike=Angliru" class="dropdown-item">Angliru</a>
+                <a href="{% url 'bikes' %}?bike=Dogma" class="dropdown-item">Dogma</a>
+                <a href="{% url 'bikes' %}?bike=Prince" class="dropdown-item">Prince</a>
+                <a href="{% url 'bikes' %}?bike=Razha" class="dropdown-item">Razha</a>
+                <a href="{% url 'bikes' %}?brand=Pinarello" class="dropdown-item">All Pinarello</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <!-- Bike Brands - Wilier -->
+            <a class="logo-font nav-link mr-5" href="#" id="wilier-link" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Wilier
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="wilier-link">
+                <a href="{% url 'bikes' %}?bike=Cento" class="dropdown-item">Cento</a>
+                <a href="{% url 'bikes' %}?bike=Filante" class="dropdown-item">Filante</a>
+                <a href="{% url 'bikes' %}?bike=GTR" class="dropdown-item">GTR</a>
+                <a href="{% url 'bikes' %}?bike=SLR" class="dropdown-item">SLR</a>
+                <a href="{% url 'bikes' %}?brand=Wilier" class="dropdown-item">All Wilier</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <!-- Bike Reviews -->
+            <a href="{% url 'review_list' %}" class="logo-font nav-link mr-5" id="review-link" aria-haspopup="true"
+                aria-expanded="false">
+                Reviews
+            </a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <!-- Cycling Blog -->
+            <a href="{% url 'blog_list' %}" class="logo-font nav-link mr-5" id="blog-link" aria-haspopup="true"
+                aria-expanded="false">
+                Blog
+            </a>
         </li>
     </ul>
 </div>
