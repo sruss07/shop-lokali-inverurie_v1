@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <h2 class="logo-font">{{ review.title }}</h2>
+            <hr class="w-50 mb-1">
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <!-- Review post details -->
+        <section class="text-justify">
+            <p class="font-weight-bold">{{ review.text|linebreaksbr }}</p>
+            <figure class="figure">
+                {% if review.image %}
+                <img class="figure-img img-fluid z-depth-1" src="{{ review.image.url }}" alt="{{ review.title }}"/>
+                {% else %}
+                <img class="figure-img img-fluid z-depth-1" src="{{ MEDIA_URL }}noimage.jpg" alt="{{ review.title }}"/>
+                {% endif %}
+            </figure>
+            <p>by <a><strong>{{ review.author }}</strong></a>,{{ review.published_date }}</p>
+            {% if request.user.is_superuser %}
+            <div class="text-center">
+                <a class="btn btn-outline-black rounded-0" href="{% url 'review_edit' pk=review.pk %}">Edit this Review Post</a>
+                <a class="btn btn-outline-black rounded-0" href="{% url 'review_delete' pk=review.pk %}">Delete this Review Post</a>
+            </div>
+            {% endif %}
+            <hr>
+        </section>
+    
+        <!-- Back to Review List button -->
+        <div class="list-button text-center">
+            <a href="{% url 'review_list' %}" class="btn btn-outline-black rounded-0">
+                <span class="icon mr-2">
+                    <i class="far fa-comments fa-lg"></i>
+                </span>
+                <span class="text-uppercase">Back to Review List</span>
+            </a>
+        </div>
+</div>
+</div>
+</div> 
+
+{% endblock %}

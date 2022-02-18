@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <h2 class="logo-font">Bike Reviews</h2>
+            <hr class="w-50 mb-1">
+        </div>
+    </div>
+
+    <!-- Grid row -->
+    {% for review in reviews %}
+    <div class="row review-list align-items-center">
+
+        <!-- Grid column -->
+        <div class="post col-lg-5">
+
+            <!-- Featured image -->
+            <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+                {% if review.image %}
+                <img class="img-fluid h-10" src="{{ review.image.url }}" alt="{{ review.title }}"/>
+                {% else %}
+                <img class="img-fluid h-10" src="{{ MEDIA_URL }}noimage.jpg" alt="{{ review.title }}"/>
+                {% endif %}
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+        </div>
+        <div class="col-lg-7">
+            <!-- Review post title -->
+            <h4 class="font-weight-bold mb-3"><strong>{{ review.title }}</strong></h4>
+            <!-- Review post content -->
+            <p>{{ review.text|linebreaksbr }}</p>
+            <!-- Review post data -->
+            <p>by <a><strong>{{ review.author }}</strong></a>,{{ review.published_date }}</p>
+            <!-- Read more button -->
+            <a class="btn btn-outline-black rounded- mx-0" href="{% url 'review_detail' pk=review.pk %}">Read more</a>
+
+        </div>
+
+        <hr class="w-50 mb-1">
+    </div>
+    {% endfor %}
+
+</div>
+{% endblock %}
