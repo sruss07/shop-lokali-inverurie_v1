@@ -41,9 +41,9 @@
                             <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name
                                 (Z-A)</option>
                             <option value="brand_asc" {% if current_sorting == 'brand_asc' %}selected{% endif %}>
-                                Brand (A-Z)</option>
+                                Product (A-Z)</option>
                             <option value="brand_desc"
-                                {% if current_sorting == 'brand_desc' %}selected{% endif %}>Brand (Z-A)</option>
+                                {% if current_sorting == 'brand_desc' %}selected{% endif %}>Product (Z-A)</option>
                         </select>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                         {% if search_term or current_brands or current_sorting or current_bike != 'None_None' %}
                         <span class="small"><a href="{% url 'bikes' %}">All Products</a> | </span>
                         {% endif %}
-                        {{ bikes|length }} Bikes {% if search_term %} found for
+                        {{ bikes|length }} Products {% if search_term %} found for
                         <strong>"{{ search_term }}"</strong>{% endif %}
                     </p>
                 </div>
