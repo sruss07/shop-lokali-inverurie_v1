@@ -9,7 +9,7 @@
           "description": "Kids black shoe",
           "price": "22.99",
           "image_url": null,
-          "image": "beggs_kids01.jpeg"
+          "image": "beggs_kids01_black_shoe.jpeg"
         }
       },
     
@@ -23,7 +23,7 @@
           "description": "Kids black shoe",
           "price": "26.99",
           "image_url": null,
-          "image": "beggs_kids02.jpeg"
+          "image": "beggs_kids02_black_shoe.jpeg"
         }
       },
 
@@ -37,7 +37,7 @@
           "description": "Kids black shoe",
           "price": "30.99",
           "image_url": null,
-          "image": "beggs_kids03.jpeg"
+          "image": "beggs_kids03_black_shoe.jpeg"
         }
       },
 
@@ -51,7 +51,7 @@
           "description": "Kids black shoe",
           "price": "22.99",
           "image_url": null,
-          "image": "beggs_kids04.jpeg"
+          "image": "beggs_kids04_black_shoe.jpeg"
         }
       },
 
@@ -65,7 +65,7 @@
           "description": "Mens black shoe",
           "price": "45.99",
           "image_url": null,
-          "image": "beggs_mens01.jpeg"
+          "image": "beggs_mens01_black_shoe.jpeg"
         }
       },
 
@@ -79,7 +79,7 @@
           "description": "Mens black shoe",
           "price": "52.99",
           "image_url": null,
-          "image": "beggs_mens02.jpeg"
+          "image": "beggs_mens02_black_shoe.jpeg"
         }
       },
 
@@ -93,7 +93,7 @@
           "description": "Mens black shoe",
           "price": "120.99",
           "image_url": null,
-          "image": "beggs_mens03.jpeg"
+          "image": "beggs_mens03_black_shoe.jpeg"
         }
       },
 
@@ -107,7 +107,7 @@
           "description": "Womens black shoe",
           "price": "100.99",
           "image_url": null,
-          "image": "beggs_womens01.jpeg"
+          "image": "beggs_womens01_black_shoe.jpeg"
         }
       },
 
@@ -121,7 +121,7 @@
           "description": "Womens black shoe",
           "price": "80.99",
           "image_url": null,
-          "image": "beggs_womens02.jpeg"
+          "image": "beggs_womens02_black_shoe.jpeg"
         }
       },
 
@@ -135,7 +135,7 @@
           "description": "Womens black shoe",
           "price": "100.99",
           "image_url": null,
-          "image": "beggs_womens03.png"
+          "image": "beggs_womens03_black_shoe.png"
         }
       },
 
@@ -149,7 +149,7 @@
           "description": "Mens black shoe",
           "price": "100.99",
           "image_url": null,
-          "image": "bruce_mens01.jpeg"
+          "image": "william_bruce_mens01_black_shoe.jpeg"
         }
       },
 
@@ -163,7 +163,7 @@
           "description": "Mens black shoe",
           "price": "130.99",
           "image_url": null,
-          "image": "bruce_mens02.jpeg"
+          "image": "william_bruce_mens02_black_shoe.jpeg"
         }
       },
 
@@ -177,7 +177,7 @@
           "description": "Womens black shoe",
           "price": "114.99",
           "image_url": null,
-          "image": "bruce_womens01.jpeg"
+          "image": "william_bruce_womens01_black_shoe.jpeg"
         }
       },
 
@@ -191,7 +191,7 @@
           "description": "Womens black shoe",
           "price": "74.99",
           "image_url": null,
-          "image": "bruce_womens02.jpeg"
+          "image": "william_bruce_womens02_black_shoe.jpeg"
         }
       },
 
@@ -205,7 +205,7 @@
           "description": "Womens black shoe",
           "price": "94.99",
           "image_url": null,
-          "image": "bruce_womens03.jpeg"
+          "image": "william_bruce_womens03_black_shoe.jpeg"
         }
       },
 
@@ -219,7 +219,7 @@
           "description": "Mens black shoe",
           "price": "94.99",
           "image_url": null,
-          "image": "gibbs_mens01.jpeg"
+          "image": "gibbs_mens01_black_shoe.jpeg"
         }
       },
 
@@ -233,7 +233,7 @@
           "description": "Kids black shoe",
           "price": "34.99",
           "image_url": null,
-          "image": "tt_kids01.jpeg"
+          "image": "trendy_treads_kids01_black_shoe.jpeg"
         }
       },
 
@@ -247,7 +247,7 @@
           "description": "Kids black shoe",
           "price": "44.99",
           "image_url": null,
-          "image": "tt_kids02.jpeg"
+          "image": "trendy_treads_kids02_black_shoe.jpeg"
         }
       }
     
