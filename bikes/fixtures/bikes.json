@@ -5,7 +5,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0001",
-          "name": "kids_black_shoe01",
+          "name": "kids_black_shoes",
           "description": "Kids black shoe",
           "price": "22.99",
           "image_url": null,
@@ -19,7 +19,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0002",
-          "name": "kids_black_shoe02",
+          "name": "kids_black_shoes",
           "description": "Kids black shoe",
           "price": "26.99",
           "image_url": null,
@@ -33,7 +33,7 @@
         "fields": {
           "brand": 3,
           "sku": "BK-0003",
-          "name": "kids_black_shoe03",
+          "name": "kids_black_shoes",
           "description": "Kids black shoe",
           "price": "30.99",
           "image_url": null,
@@ -47,7 +47,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0004",
-          "name": "kids_black_shoe04",
+          "name": "kids_black_shoes",
           "description": "Kids black shoe",
           "price": "22.99",
           "image_url": null,
@@ -61,7 +61,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0005",
-          "name": "mens_black_shoe01",
+          "name": "mens_black_shoes",
           "description": "Mens black shoe",
           "price": "45.99",
           "image_url": null,
@@ -75,7 +75,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0006",
-          "name": "mens_black_shoe02",
+          "name": "mens_black_shoes",
           "description": "Mens black shoe",
           "price": "52.99",
           "image_url": null,
@@ -89,7 +89,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0007",
-          "name": "mens_black_shoe03",
+          "name": "mens_black_shoes",
           "description": "Mens black shoe",
           "price": "120.99",
           "image_url": null,
@@ -103,7 +103,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0008",
-          "name": "womens_black_shoe01",
+          "name": "womens_black_shoes",
           "description": "Womens black shoe",
           "price": "100.99",
           "image_url": null,
@@ -117,7 +117,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0009",
-          "name": "womens_black_shoe02",
+          "name": "womens_black_shoes",
           "description": "Womens black shoe",
           "price": "80.99",
           "image_url": null,
@@ -131,7 +131,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0010",
-          "name": "womens_black_shoe03",
+          "name": "womens_black_shoes",
           "description": "Womens black shoe",
           "price": "100.99",
           "image_url": null,
@@ -145,7 +145,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0011",
-          "name": "mens_black_shoe04",
+          "name": "mens_black_shoes",
           "description": "Mens black shoe",
           "price": "100.99",
           "image_url": null,
@@ -159,7 +159,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0012",
-          "name": "mens_black_shoe05",
+          "name": "mens_black_shoes",
           "description": "Mens black shoe",
           "price": "130.99",
           "image_url": null,
@@ -173,7 +173,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0013",
-          "name": "womens_black_shoe04",
+          "name": "womens_black_shoes",
           "description": "Womens black shoe",
           "price": "114.99",
           "image_url": null,
@@ -187,7 +187,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0014",
-          "name": "womens_black_shoe05",
+          "name": "womens_black_shoes",
           "description": "Womens black shoe",
           "price": "74.99",
           "image_url": null,
@@ -201,7 +201,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0015",
-          "name": "womens_black_shoe06",
+          "name": "womens_black_shoes",
           "description": "Womens black shoe",
           "price": "94.99",
           "image_url": null,
@@ -215,7 +215,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0016",
-          "name": "mens_black_shoe06",
+          "name": "mens_black_shoes",
           "description": "Mens black shoe",
           "price": "94.99",
           "image_url": null,
@@ -229,7 +229,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0017",
-          "name": "kids_black_shoe05",
+          "name": "kids_black_shoes",
           "description": "Kids black shoe",
           "price": "34.99",
           "image_url": null,
@@ -243,7 +243,7 @@
         "fields": {
           "brand": 2,
           "sku": "BK-0018",
-          "name": "kids_black_shoe06",
+          "name": "kids_black_shoes",
           "description": "Kids black shoe",
           "price": "44.99",
           "image_url": null,
