@@ -318,6 +318,10 @@ footer {
     margin: 0;
 }
 
+.main-logo-link {
+    justify-content: center;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
