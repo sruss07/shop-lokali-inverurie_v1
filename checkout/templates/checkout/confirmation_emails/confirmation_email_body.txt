@@ -1,4 +1,4 @@
-ello {{ order.full_name }}!
+Hello {{ order.full_name }}!
 
 Thank you for making your purchase using Shop Lokali Inverurie
 
@@ -11,7 +11,7 @@ Order Total: £{{ order.order_total }}
 Delivery: £{{ order.delivery_cost }}
 Grand Total: £{{ order.grand_total }}
 
-Your bike will be shipped to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
+Your product will be shipped to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
 
 Feel free to contact us at {{ contact_email }}.
 

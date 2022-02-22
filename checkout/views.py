@@ -7,7 +7,7 @@ from django.conf import settings
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 
-from bikes.models import Bike
+from products.models import Product
 from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
 from cart.contexts import cart_contents
@@ -60,17 +60,17 @@ def checkout(request):
             order.save()
             for item_id, item_data in cart.items():
                 try:
-                    bike = Bike.objects.get(id=item_id)
+                    product = Product.objects.get(id=item_id)
                     order_line_item = OrderLineItem(
                         order=order,
-                        bike=bike,
+                        product=product,
                         quantity=item_data,
                         )
                     order_line_item.save()
 
-                except Bike.DoesNotExist:
+                except Product.DoesNotExist:
                     messages.error(request, (
-                        "Bike was not found")
+                        "Product was not found")
                     )
                     order.delete()
                     return redirect(reverse('view_cart'))
@@ -87,7 +87,7 @@ def checkout(request):
         if not cart:
             messages.error(
                 request, "There's nothing in your shopping cart yet!")
-            return redirect(reverse('bikes'))
+            return redirect(reverse('products'))
 
         current_cart = cart_contents(request)
         total = current_cart['grand_total']
