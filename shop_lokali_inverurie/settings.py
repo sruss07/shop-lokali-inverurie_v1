@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 
     # Ciclo Italia apps
     'home',
-    'bikes',
+    'products',
     'cart',
     'checkout',
     'profiles',
