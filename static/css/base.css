@@ -318,8 +318,9 @@ footer {
     margin: 0;
 }
 
-.main-logo-link {
-    justify-content: center;
+.nav-link .main-logo-link {
+    margin: auto;
+    width: 20%;
 }
 
 /* -------------------------------- Media Queries */
