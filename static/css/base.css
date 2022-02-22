@@ -71,7 +71,7 @@ h4 {
 
 .nav-item a:hover{
     text-decoration: underline;
-    text-decoration-color: #DC3545;
+    text-decoration-color: darkgray;
     text-decoration-thickness: 3px;
 }
 
