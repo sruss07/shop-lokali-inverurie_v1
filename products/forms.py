@@ -1,12 +1,12 @@
 from django import forms
 from .widgets import CustomClearableFileInput
-from .models import Bike, Brand
+from .models import Product, Category
 
 
-class BikeForm(forms.ModelForm):
+class ProductForm(forms.ModelForm):
 
     class Meta:
-        model = Bike
+        model = Product
         fields = '__all__'
 
     image = forms.ImageField(
@@ -14,10 +14,10 @@ class BikeForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        brands = Brand.objects.all()
-        frontend_names = [(c.id, c.get_frontend_name()) for c in brands]
+        categories = Category.objects.all()
+        frontend_names = [(c.id, c.get_frontend_name()) for c in categories]
 
-        self.fields['brand'].choices = frontend_names
+        self.fields['category'].choices = frontend_names
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
 
