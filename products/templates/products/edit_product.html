@@ -23,9 +23,9 @@
 
     <div class="row">
         <div class="col-12 col-md-6">
-            <form method="POST" action="{% url 'edit_bike' bike.id %}" class="form mb-2"
+            <form method="POST" action="{% url 'edit_product' product.id %}" class="form mb-2"
                 enctype="multipart/form-data">
-                <!-- Editing a bikes details -->
+                <!-- Editing a products details -->
                 {% csrf_token %}
                 {% for field in form %}
                 {% if field.name != 'image' %}
@@ -35,7 +35,7 @@
                 {% endif %}
                 {% endfor %}
                 <div class="text-right">
-                    <a class="btn btn-outline-black rounded-0" href="{% url 'bikes' %}">Cancel</a>
+                    <a class="btn btn-outline-black rounded-0" href="{% url 'products' %}">Cancel</a>
                     <button class="btn btn-black rounded-0" type="submit">Update Product</button>
                 </div>
             </form>
