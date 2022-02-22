@@ -10,10 +10,10 @@
             </div>
         </a>
         <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
-            <form class="form" method="GET" action="{% url 'bikes' %}">
+            <form class="form" method="GET" action="{% url 'products' %}">
                 <div class="input-group w-100">
                     <input class="form-control border border-black rounded-0" type="text" name="q"
-                        placeholder="Search for your new bike">
+                        placeholder="Search for your product">
                     <div class="input-group-append">
                         <button class="form-control form-control btn btn-black border border-black rounded-0"
                             type="submit">
@@ -38,7 +38,7 @@
         <div class="dropdown-menu border-0">
             {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
-            <a href="{% url 'add_bike' %}" class="dropdown-item">Product Management</a>
+            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
             <a href="{% url 'review_new' %}" class="dropdown-item">Add a New Review</a>
             <a href="{% url 'blog_new' %}" class="dropdown-item">Add a New Blog Post</a>
             {% endif %}

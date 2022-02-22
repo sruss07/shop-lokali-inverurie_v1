@@ -1,6 +1,6 @@
 [
     {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 1,
         "fields": {
           "brand": 2,
@@ -14,7 +14,7 @@
       },
     
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 2,
         "fields": {
           "brand": 2,
@@ -28,7 +28,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 3,
         "fields": {
           "brand": 3,
@@ -42,7 +42,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 4,
         "fields": {
           "brand": 2,
@@ -56,7 +56,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 5,
         "fields": {
           "brand": 2,
@@ -70,7 +70,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 6,
         "fields": {
           "brand": 2,
@@ -84,7 +84,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 7,
         "fields": {
           "brand": 2,
@@ -98,7 +98,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 8,
         "fields": {
           "brand": 2,
@@ -112,7 +112,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 9,
         "fields": {
           "brand": 2,
@@ -126,7 +126,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 10,
         "fields": {
           "brand": 2,
@@ -140,7 +140,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 11,
         "fields": {
           "brand": 2,
@@ -154,7 +154,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 12,
         "fields": {
           "brand": 2,
@@ -168,7 +168,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 13,
         "fields": {
           "brand": 2,
@@ -182,7 +182,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 14,
         "fields": {
           "brand": 2,
@@ -196,7 +196,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 15,
         "fields": {
           "brand": 2,
@@ -210,7 +210,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 16,
         "fields": {
           "brand": 2,
@@ -224,7 +224,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 17,
         "fields": {
           "brand": 2,
@@ -238,7 +238,7 @@
       },
 
       {
-        "model": "bikes.bike",
+        "model": "products.product",
         "pk": 18,
         "fields": {
           "brand": 2,
