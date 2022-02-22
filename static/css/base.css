@@ -318,7 +318,7 @@ footer {
     margin: 0;
 }
 
-.nav-link .main-logo-link {
+a .nav-link .main-logo-link {
     margin: auto;
     width: 20%;
 }
