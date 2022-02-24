@@ -7,8 +7,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-from dotenv import load_dotenv
-load_dotenv()
 from pathlib import Path
 import os
 import dj_database_url
@@ -47,6 +45,7 @@ INSTALLED_APPS = [
     'cart',
     'checkout',
     'profiles',
+    'review',
 
     # other
     'crispy_forms',
