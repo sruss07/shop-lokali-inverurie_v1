@@ -131,7 +131,7 @@ WSGI_APPLICATION = 'shop_lokali_inverurie.wsgi.application'
 #        }
 #    }
 
-DATABASE = {
+DATABASES = {
     'default': dj_database_url.parse('postgres://tjxknanfpsnexv:2007a66536d9f1447e8671f71907f84001dad4bcad7364f6f0aec396fb586c68@ec2-99-80-108-106.eu-west-1.compute.amazonaws.com:5432/da4tm8fv77e4k2')
 }
 
