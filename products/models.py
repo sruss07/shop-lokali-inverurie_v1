@@ -9,14 +9,14 @@ class Category(models.Model):
         # ordering = ['-category__name']
 
     name = models.CharField(max_length=254)
-    frontend_name = models.CharField(
+    friendly_name = models.CharField(
         max_length=254, null=True, blank=True)
 
     def __str__(self):
         return self.name
 
-    def get_frontend_name(self):
-        return self.frontend_name
+    def get_friendly_name(self):
+        return self.friendly_name
 
 
 class Product(models.Model):

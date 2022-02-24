@@ -19,7 +19,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
-        'frontend_name',
+        'friendly_name',
         'name',
     )
 
