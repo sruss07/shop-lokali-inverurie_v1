@@ -8,103 +8,98 @@
             </a>
         </li>
         <li class="nav-item dropdown">
-            <a href="{% url 'products' %}" class="logo-font nav-link mr-5">All&nbsp;Categories</a>
+            <a href="{% url 'products' %}" class="logo-font nav-link mr-5">All Products</a>
         </li>
+         <!-- Product categories -->
         <li class="nav-item dropdown">
-            <!-- Clothing -->
             <a class="logo-font nav-link mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 Clothing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?product=jumpers" class="dropdown-item">Jumpers &nbsp;& &nbsp;Cardigans</a>
-                <a href="{% url 'products' %}?product=dresses" class="dropdown-item">Dresses &nbsp;& &nbsp;Skirts</a>
-                <a href="{% url 'products' %}?product=trousers" class="dropdown-item">Trousers &nbsp;& &nbsp;Jeans</a>
-                <a href="{% url 'products' %}?brand=Clothing" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'products' %}?category=jumpers" class="dropdown-item">Jumpers &nbsp;& &nbsp;Cardigans</a>
+                <a href="{% url 'products' %}?category=dresses" class="dropdown-item">Dresses &nbsp;& &nbsp;Skirts</a>
+                <a href="{% url 'products' %}?category=trousers" class="dropdown-item">Trousers &nbsp;& &nbsp;Jeans</a>
+                <a href="{% url 'products' %}?category=jumpers,dresses,trousers" class="dropdown-item">All Clothing</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <!-- Footwear -->
             <a class="logo-font nav-link mr-5" href="#" id="footwear-link" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 Footwear
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="footwear-link">
-                <a href="{% url 'products' %}?product=womens_black_shoes" class="dropdown-item">Womens Shoes</a>
-                <a href="{% url 'products' %}?product=mens_black_shoes" class="dropdown-item">Mens Shoes</a>
-                <a href="{% url 'products' %}?product=kids_black_shoes" class="dropdown-item">Kids Shoes</a>
-                <a href="{% url 'products' %}?brand=Footwear" class="dropdown-item">All Footwear</a>
+                <a href="{% url 'products' %}?category=womens_shoes" class="dropdown-item">Womens Shoes</a>
+                <a href="{% url 'products' %}?category=mens_shoes" class="dropdown-item">Mens Shoes</a>
+                <a href="{% url 'products' %}?category=kids_shoes" class="dropdown-item">Kids Shoes</a>
+                <a href="{% url 'products' %}?category=womens_shoes,mens_shoes,kids_shoes" class="dropdown-item">All Footwear</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <!-- Activewear -->
             <a class="logo-font nav-link mr-5" href="#" id="activewear-link" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
-                Activewear
+                All Activewear
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="activewear-link">
-                <a href="{% url 'products' %}?product=coats" class="dropdown-item">Coats &nbsp;& &nbsp;Jackets</a>
-                <a href="{% url 'products' %}?product=tops" class="dropdown-item">Tops &nbsp;& &nbsp;T-Shirts</a>
-                <a href="{% url 'products' %}?product=tracksuits" class="dropdown-item">Tracksuits</a>
-                <a href="{% url 'products' %}?brand=Activewear" class="dropdown-item">All Activewear</a>
+                <a href="{% url 'products' %}?category=coats" class="dropdown-item">Coats &nbsp;& &nbsp;Jackets</a>
+                <a href="{% url 'products' %}?category=tops" class="dropdown-item">Tops &nbsp;& &nbsp;T-Shirts</a>
+                <a href="{% url 'products' %}?category=tracksuits" class="dropdown-item">Tracksuits</a>
+                <a href="{% url 'products' %}?category=coats,tops,tracksuits" class="dropdown-item">All Activewear</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <!-- Electronics -->
             <a class="logo-font nav-link mr-5" href="#" id="electronics-link" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 Electronics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="electronics-link">
-                <a href="{% url 'products' %}?product=appliances" class="dropdown-item">Appliances</a>
-                <a href="{% url 'products' %}?product=TV" class="dropdown-item">TV &nbsp;& &nbsp;Audio</a>
-                <a href="{% url 'products' %}?product=computing" class="dropdown-item">Computing</a>
-                <a href="{% url 'products' %}?brand=Electronics" class="dropdown-item">All Electronics</a>
+                <a href="{% url 'products' %}?category=appliances" class="dropdown-item">Appliances</a>
+                <a href="{% url 'products' %}?category=tv" class="dropdown-item">TV &nbsp;& &nbsp;Audio</a>
+                <a href="{% url 'products' %}?category=computing" class="dropdown-item">Computing</a>
+                <a href="{% url 'products' %}?category=appliances,tv,computing" class="dropdown-item">All Electronics</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <!-- Homeware -->
             <a class="logo-font nav-link mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 Homeware
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?product=furniture" class="dropdown-item">Furniture</a>
-                <a href="{% url 'products' %}?product=bedding" class="dropdown-item">Bedding</a>
-                <a href="{% url 'products' %}?product=painting" class="dropdown-item">Painting &nbsp;& &nbsp;Decorating</a>
-                <a href="{% url 'products' %}?brand=Homeware" class="dropdown-item">All Homeware</a>
+                <a href="{% url 'products' %}?category=furniture" class="dropdown-item">Furniture</a>
+                <a href="{% url 'products' %}?category=bedding" class="dropdown-item">Bedding</a>
+                <a href="{% url 'products' %}?category=decorating" class="dropdown-item">Decorating</a>
+                <a href="{% url 'products' %}?category=furniture,bedding,decorating" class="dropdown-item">All Homeware</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <!-- Food & Drink -->
             <a class="logo-font nav-link mr-5" href="#" id="food-link" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 Food &nbsp;& &nbsp;Drink
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="food-link">
-                <a href="{% url 'products' %}?product=fresh" class="dropdown-item">Fresh Food</a>
-                <a href="{% url 'products' %}?product=bakery" class="dropdown-item">Bakery</a>
-                <a href="{% url 'products' %}?product=drinks" class="dropdown-item">Drinks</a>
-                <a href="{% url 'products' %}?brand=Food" class="dropdown-item">All Food &nbsp;& &nbsp;Drink</a>
+                <a href="{% url 'products' %}?category=fresh" class="dropdown-item">Fresh Food</a>
+                <a href="{% url 'products' %}?category=bakery" class="dropdown-item">Bakery</a>
+                <a href="{% url 'products' %}?category=drinks" class="dropdown-item">Drinks</a>
+                <a href="{% url 'products' %}?category=fresh,bakery,drinks" class="dropdown-item">All Food &nbsp;& &nbsp;Drink</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <!-- Product Reviews -->
+            <!-- Why Lokali? -->
             <a href="{% url 'review_list' %}" class="logo-font nav-link mr-5 text-success" id="review-link" aria-haspopup="true"
                 aria-expanded="false">
                 Why Lokali?
             </a>
         </li>
-
+        
         <li class="nav-item dropdown">
-            <!-- Blog -->
-            <a href="{% url 'blog_list' %}" class="logo-font nav-link mr-5 text-success" id="blog-link" aria-haspopup="true"
+            <!-- Electric Vehicle Delivery -->
+            <a href="{% url 'post_list' %}" class="logo-font nav-link" id="blog-link" aria-haspopup="true"
                 aria-expanded="false">
                 Electric Vehicle Delivery
             </a>
